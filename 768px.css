@@ -181,8 +181,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 0.5vmax;
+        padding: 1vmax;
         gap: 0.5vmax;
+        width: max-content;
     }
     
     .first img{
@@ -191,9 +192,10 @@
     }
     
     .first p{
-        font-size: 0.89vmax;
+        font-size: 0.9vmax;
         color: rgba(214, 208, 251, 1);
         text-transform: uppercase;
+        width: max-content;
     }
     
     
