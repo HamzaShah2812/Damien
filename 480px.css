@@ -1,0 +1,1357 @@
+@media (max-width:480px) {
+    * {
+        font-family: manrope;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        background-color: black;
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vmax 3vmax;
+    }
+
+    .logo img{
+        width: 8vmax;
+        height: 1.9vmax;
+    }
+    
+    .menu{
+        display: none;
+        gap: 4vmax;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .nav-button a{
+        display: none;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2vmax;
+        height: 1.5vmax;
+    }
+
+    .hamburger img{
+        display: flex;
+        width: 2vmax;
+        height: 1.5vmax;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: auto;  
+        width: auto;
+        overflow: hidden;
+    }
+    
+    
+    .name-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2vmax;
+        background: url(img/header-background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 22vmax;
+        padding: 3vmax;
+        width: 100%;
+    }
+    
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name p{
+        font-size: 2vmax;
+        font-weight: 500;
+        color: rgba(98, 100, 108, 1);
+        margin: 0;
+    }
+    
+    .name h1{
+        font-size: 4.1vmax;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .work-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .work-details .lets{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vmax;
+    }
+    
+    .work-details .lets h1{
+        font-size: 4vmax;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .work-details .lets a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 8vmax;
+        height: 5vmax;
+        border-radius: 2.5vmax;
+        background-color: rgba(74, 44, 237, 1);
+        box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+    }
+    
+    .work-details .lets a img{
+        width: 1.5vmax;
+        height: 1.5vmax;
+    }
+    
+    .work-together h1{
+        font-size: 4vmax;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    
+    .header-animation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(14, 14, 16, 1);
+        height: 8vmax;
+        position: relative;
+        width: auto; 
+        overflow: hidden;
+    }
+    
+    .footer-animation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(14, 14, 16, 1);
+        height: 8vmax;
+        position: relative;
+        width: auto;
+        overflow: hidden;
+    }
+    
+    
+    .animation{
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        animation: slide 20s linear infinite;
+        overflow: none;
+    }
+    
+    
+      @keyframes slide {
+        0% {
+          transform: translateX(0); 
+        }
+        100% {
+          transform: translateX(-100%); 
+        }
+      }
+    
+    
+    
+    .first{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1vmax;
+        gap: 0.9vmax;
+    }
+    
+    .first img{
+        width: 3.5vmax;
+        height: 3.5vmax;
+    }
+    
+    .first p{
+        font-size: 2vmax;
+        color: rgba(214, 208, 251, 1);
+        text-transform: uppercase;
+    }
+    
+    
+    
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0vmax 0vmax;
+        width: 100%;
+        height: 35vmax;
+    }
+    
+    
+    .container img{
+        display: flex;
+        align-items: center;
+        margin: 0vmax 2vmax;
+        width: 50vmax;
+        height: 35vmax;
+    }
+    
+    
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        padding: 7vmax 3vmax;
+        width: auto;
+        height: auto;
+    }
+    
+    .about-section .section-head {
+        font-size: 2vmax;
+        font-weight: 600;
+        margin: 0;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .Iam{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 5vmax;
+        gap: 2vmax;
+    }
+    
+    .Iam h1{
+        font-size: 4vmax;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .Iam a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        width: 18vmax;
+        height: 6vmax;
+        font-size: 2vmax;
+        background-color: rgba(28, 28, 33, 1);
+        color: rgba(255, 255, 255, 1);
+        border: none;
+        border-radius: 0.6vmax;
+    }
+    
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vmax;
+        width: auto;
+        height: auto;
+    }
+    
+    .about-image{
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+    
+    .about-image img{
+        width: 37vmax;
+        height: 32vmax;
+    }
+    
+    .about-intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2vmax;
+    }
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vmax;
+        margin-bottom: 3vmax;
+    }
+    
+    .intro-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5vmax;
+    }
+    
+    .intro-heading h3{
+        font-size: 3vmax;
+        font-weight: 500;
+        color: rgba(202, 202, 206, 1);
+    }
+    
+    .intro-heading img{
+        width: 3vmax;
+        height: 3vmax;
+    }
+    
+    .intro-content p{
+        font-size: 2vmax;
+        font-weight: 400;
+        color: rgba(175, 176, 182, 1);
+    }
+    
+    .about-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+    
+    .contact-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5vmax;
+    }
+    
+    .contact-heading img{
+        width: 3vmax;
+        height: 3vmax;
+    }
+    
+    .contact-heading h3{
+        font-size: 3vmax;
+        font-weight: 500;
+        color: rgba(202, 202, 206, 1);
+    }
+    
+    .contact-details{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8vmax;
+        margin-bottom: 3vmax;
+    }
+    
+    .contact-details h5{
+        font-size: 2vmax;
+        font-weight: 500;
+        color: rgba(175, 176, 182, 1);
+        margin-bottom: 0.5vmax;
+    }
+    
+    .contact-details p{
+        font-size: 2vmax;
+        font-weight: 400;
+        color: rgba(175, 176, 182, 1);
+    }
+    
+    .socials{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vmax;
+    }
+    
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 1vmax;
+    }
+    
+    .social-icons a img{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    
+    .contact-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.2vmax;
+        width: auto;
+    }
+    
+    .contact-buttons a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 2vmax;
+        font-weight: 500;
+        color: white;
+        border: solid transparent;
+        border-color: rgba(47, 47, 55, 1);
+        border-width: 0.1vmax;
+        border-radius: 1.2vmax;
+        background-color: rgba(28, 28, 33, 1);
+        width: auto;
+        height: auto;
+        padding: 2vmax 5vmax;
+    }
+    
+    
+    .services-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0vmax 3vmax;
+        
+    }
+    
+    .services-section .section-head {
+        font-size: 2vmax;
+        font-weight: 600;
+        margin: 0;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .services-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 5vmax;
+        gap: 2.5vmax;
+    }
+    
+    .navigation-buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1vmax;
+    }
+    
+    .navigation-buttons a img{
+        width: 4.5vmax;
+        height: 4.5vmax;
+    }
+    
+    .services-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2vmax;
+    }
+    
+    .all-services{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5vmax;
+        width: 20vmax;
+        height: 6vmax;
+        background-color: rgba(28, 28, 33, 1);
+    }
+    
+    .all-services a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .services-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 4vmax;
+    }
+    
+    .services-text{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .services-text-heading{
+        display: flex;
+        flex-direction: column;
+        gap: 2vmax;
+    }
+    
+    .services-text-heading .para p{
+        font-size: 2.2vmax;
+        font-weight: 400;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .services-head{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vmax;
+    }
+    
+    .services-head h2{
+        font-size: 3vmax;
+        font-weight: 600;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .services-head a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 8vmax;
+        height: 5vmax;
+        border-radius: 2.5vmax;
+        background-color: rgba(74, 44, 237, 1);
+        box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+    }
+    
+    .services-head a img{
+        width: 1.5vmax;
+        height: 1.5vmax;
+    }
+    
+    .services-heading h1{
+        font-size: 3vmax;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .services-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38vmax;
+        height: 32vmax;
+    }
+    
+    .services-image img{
+        display: flex;
+        width: 38vmax;
+        height: 32vmax;
+    }
+    
+    .services-highlights{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vmax;
+        gap: 2vmax;
+    }
+    
+    .highlights-heading{
+        font-size: 3vmax;
+        font-weight: 500;
+        color: rgba(202, 202, 206, 1);
+    }
+    
+    .highlights-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vmax;
+    }
+    
+    .one, .two, .three, .four{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vmax;
+        padding: 0.8vmax;
+    }
+    
+    .one, .two, .three, .four, p{
+        font-size: 2vmax;
+        font-weight: 400;
+        color: rgba(175, 176, 182, 1);
+    }
+    
+    .one img{
+        width: 4vmax;
+        height: 4vmax;
+    }
+    .two img{
+        width: 4vmax;
+        height: 4vmax;
+    }
+    .three img{
+        width: 4vmax;
+        height: 4vmax;
+    }
+    .four img{
+        width: 4vmax;
+        height: 4vmax;
+    }
+    
+    .services-text{
+        display: flex;
+        flex-direction: column;
+        gap: 3vmax;
+    }
+    
+    .portfolio-section{
+        display: flex;
+        flex-direction: column;
+        padding: 10vmax 3vmax;
+    }
+    
+    .portfolio-section .section-head {
+        font-size: 2vmax;
+        font-weight: 600;
+        margin: 0;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .portfolio-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 5vmax;
+        gap: 2vmax;
+    }
+    
+    .portfolio-heading h1{
+        font-size: 3vmax;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .navigation-buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1vmax;
+    }
+    
+    .navigation-buttons button{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .navigation-buttons button img{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    
+    .portfolio-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2vmax;
+    }
+    
+    .all-portfolio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5vmax;
+        width: 22vmax;
+        height: 6vmax;
+        background-color: rgba(28, 28, 33, 1);
+    }
+    
+    .all-portfolio a{
+        color: white;
+        text-decoration: none;
+        font-size: 2vmax;
+    }
+    
+    .portfolio-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 3vmax;
+    }
+    
+    .face{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vmax;
+    }
+    
+    .face-image{
+        display: flex;
+        width: 48vmax;
+        height: 45vmax;
+    }
+    
+    .face-image img{
+        width: 48vmax;
+        height: 45vmax;
+    }
+    
+    .face-details{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8vmax;
+    }
+    
+    .face-name{
+        display: flex;
+        flex-direction: column;
+        gap: 0.1vmax;
+    }
+    
+    .face-name h4{
+        font-size: 2.5vmax;
+        font-weight: 500;
+        color:rgba(202, 202, 206, 1);
+    }
+    
+    .face-name p{
+        font-size: 1.5vmax;
+        font-weight: 400;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .face-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .face-button a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 2vmax;
+        font-weight: 400;
+    }
+    
+    .face-button a img{
+        width: 1.5vmax;
+        height: 1.5vmax;
+        padding-left: 1vmax;
+    }
+    
+    .wedding{
+        display: none;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+    
+    .wedding-image{
+        display: flex;
+        width: 25vmax;
+        height: 26vmax;
+    }
+    
+    .wedding-image img{
+        width: 25vmax;
+        height: 26vmax;
+    }
+    
+    .wedding-details{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .wedding-name{
+        display: flex;
+        flex-direction: column;
+        gap: 0.1vmax;
+    }
+    
+    .wedding-name h4{
+        font-size: 1vmax;
+        font-weight: 500;
+        color:rgba(202, 202, 206, 1);
+    }
+    
+    .wedding-name p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .wedding-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .wedding-button a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+    
+    .wedding-button a img{
+        width: 0.8vmax;
+        height: 0.8vmax;
+        padding-left: 0.5vmax;
+    }
+    
+    .product{
+        display: none;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+    
+    .product-image{
+        display: flex;
+        width: 25vmax;
+        height: 26vmax;
+    }
+    
+    .product-image img{
+        width: 25vmax;
+        height: 26vmax;
+    }
+    
+    .product-details{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .product-name{
+        display: flex;
+        flex-direction: column;
+        gap: 0.1vmax;
+    }
+    
+    .product-name h4{
+        font-size: 1vmax;
+        font-weight: 500;
+        color:rgba(202, 202, 206, 1);
+    }
+    
+    .product-name p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .product-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .product-button a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+    
+    .product-button a img{
+        width: 0.8vmax;
+        height: 0.8vmax;
+        padding-left: 0.5vmax;
+    }
+    
+    .FAQ-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vmax;
+    }
+    
+    .question-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vmax;
+    }
+    
+    .question-two{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vmax;
+    }
+    
+   
+    
+    .q1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vmax;
+        width: 33vmax;
+        height: 16vmax;
+    }
+    
+    .q h5{
+        font-size: 2.5vmax;
+        font-weight: 600;
+    }
+    
+    .ans{
+        display: none;
+        transition: 3s;
+    }
+    
+    .ans.show{
+        opacity: 1;
+        height: auto;
+    }
+    
+    .ans p{
+        font-size: 1.5vmax;
+        font-weight: 200;
+    }
+    
+    .btn{
+        display: flex;
+        align-items: center;
+        width: 4vmax;
+        height: 4vmax;
+        margin-left: 2vmax;
+    }
+    
+    .btn button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4vmax;
+        height: 4vmax;
+        border: solid;
+        border-radius: 2vmax;
+        background-color: rgba(28, 28, 33, 1);
+        cursor: pointer;
+    }
+    
+    .btn button img{
+        width: 1.2vmax;
+        height: 0.6vmax;
+        background-color: transparent;
+    }
+    
+    .FAQ-section{
+        display: flex;
+        flex-direction: column;
+        padding: 6vmax 3vmax;
+        padding-top: 0vmax;
+    }
+    
+    .FAQ-section .section-head {
+        font-size: 2vmax;
+        font-weight: 600;
+        margin: 0;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .FAQ-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10vmax;
+    }
+    
+    .FAQ-heading h1{
+        font-size: 3vmax;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .testimonials-section{
+        display: flex;
+        flex-direction: column;
+        padding: 6vmax 3vmax;
+        padding-top: 0vmax;
+        gap: 1vmax;
+    }
+    
+    .testimonials-heading .section-head {
+        font-size: 2vmax;
+        font-weight: 600;
+        margin: 0;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .testimonials-heading h1{
+        font-size: 3vmax;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .testimonials-reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .testimonials-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1.5vmax;
+        padding-top: 3vmax;
+    }
+    
+    .all-testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5vmax;
+        width: 20vmax;
+        height: 6vmax;
+        padding: 0.1vmax 0.7vmax;
+        background-color: rgba(28, 28, 33, 1);
+    }
+    
+    .all-testimonials a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .testimonials-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5vmax;
+        margin-top: 5vmax;
+    }
+    
+    .emily{
+        display: flex;
+        flex-direction: column;
+        width: 42vmax;
+        height: 25vmax;
+        padding: 3vmax;
+        border-radius: 1.2vmax;
+        background-color: rgba(14, 14, 16, 1);
+        gap: 3.1vmax;
+    }
+    
+    .emily-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .emily-head h5{
+        font-size: 2.5vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    .emily-head p{
+        font-size: 1.5vmax;
+        color: rgba(98, 100, 108, 1);
+    }
+    
+    .emily-socials{
+        display: flex;
+        gap: 0.5vmax;
+    }
+    
+    .emily-reviews img{
+        width: 3vmax;
+        height: 3vmax;
+        color: rgba(255, 206, 34, 1);
+    }
+    
+    .emily-discription h5{
+        font-size: 2vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    
+    .john{
+        display: flex;
+        flex-direction: column;
+        width: 42vmax;
+        height: 25vmax;
+        padding: 3vmax;
+        border-radius: 1.2vmax;
+        background-color: rgba(14, 14, 16, 1);
+        gap: 3.1vmax;
+    }
+    
+    .emily-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .emily-head h5{
+        font-size: 2.5vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    .emily-head p{
+        font-size: 1.5vmax;
+        color: rgba(98, 100, 108, 1);
+    }
+    
+    .emily-socials{
+        display: flex;
+        gap: 0.5vmax;
+    }
+    
+    .emily-reviews img{
+        width: 3vmax;
+        height: 3vmax;
+        color: rgba(255, 206, 34, 1);
+    }
+    
+    .emily-discription h5{
+        font-size: 2vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .samantha{
+        display: flex;
+        flex-direction: column;
+        width: 42vmax;
+        height: 25vmax;
+        padding: 3vmax;
+        border-radius: 1.2vmax;
+        background-color: rgba(14, 14, 16, 1);
+        gap: 3.1vmax;
+    }
+    
+    .emily-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .emily-head h5{
+        font-size: 2.5vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    .emily-head p{
+        font-size: 1.5vmax;
+        color: rgba(98, 100, 108, 1);
+    }
+    
+    .emily-socials{
+        display: flex;
+        gap: 0.5vmax;
+    }
+    
+    .emily-reviews img{
+        width: 3vmax;
+        height: 3vmax;
+        color: rgba(255, 206, 34, 1);
+    }
+    
+    .emily-discription h5{
+        font-size: 2vmax;
+        color: rgba(228, 228, 230, 1);
+    }
+    
+    
+    .last-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .last-section .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0vmax 3vmax;
+    }
+    
+    .last-section .logo h1{
+        font-size: 10vmax;
+        color: rgba(35, 35, 41, 1);
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 4vmax 7vmax;
+        gap: 1vmax;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5vmax;
+    }
+    
+    .left{
+        display: flex;
+        flex-direction: column;
+        gap: 2vmax;
+    }
+    
+    .right{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8vmax;
+    } 
+    
+    .home{
+        display: flex;
+        flex-direction: column;
+        gap: 2vmax;
+    }
+    
+    .home h5{
+        color: rgba(121, 124, 134, 1);
+        font-size: 2.2vmax;
+        font-weight: 600;
+    }
+    
+    .home a{
+        text-decoration: none;
+        color: rgba(242, 242, 243, 1);
+        font-size: 2.2vmax;
+        font-weight: 500;
+    }
+    
+    .clients{
+        display: flex;
+        flex-direction: column;
+        gap: 2vmax;
+    }
+    
+    .clients h5{
+        color: rgba(121, 124, 134, 1);
+        font-size: 2.2vmax;
+        font-weight: 600;
+    }
+    
+    .clients a{
+        text-decoration: none;
+        color: rgba(242, 242, 243, 1);
+        font-size: 2.2vmax;
+        font-weight: 500;
+    }
+    
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+    
+    .portfolio h5{
+        color: rgba(121, 124, 134, 1);
+        font-size: 2.2vmax;
+        font-weight: 600;
+    }
+    
+    .portfolio a{
+        text-decoration: none;
+        color: rgba(242, 242, 243, 1);
+        font-size: 2.2vmax;
+        font-weight: 500;
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+    
+    .services h5{
+        color: rgba(121, 124, 134, 1);
+        font-size: 2.2vmax;
+        font-weight: 600;
+    }
+    
+    .services a{
+        text-decoration: none;
+        color: rgba(242, 242, 243, 1);
+        font-size: 2.2vmax;
+        font-weight: 500;
+    }
+    
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vmax 6vmax; 
+        gap: 1.5vmax;
+    }
+    
+    .term{
+        display: flex;
+        flex-direction: row;
+        gap: 1vmax;
+        order: 1;
+    }
+    
+    .term a{
+        text-decoration: none;
+        color: rgba(121, 124, 134, 1);
+    }
+    
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vmax;
+        order: 3;
+    }
+    
+    .social-media img{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    
+    .copy{
+        order: 2;
+        color: rgba(121, 124, 134, 1);
+    }
+
+    .copy p{
+        font-size: 1.8vmax;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
