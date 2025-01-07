@@ -171,6 +171,7 @@ header{
     align-items: center;
     padding: 0.5vmax;
     gap: 0.5vmax;
+    width: max-content;
 }
 
 .first img{
@@ -182,6 +183,7 @@ header{
     font-size: 0.89vmax;
     color: rgba(214, 208, 251, 1);
     text-transform: uppercase;
+    width: max-content;
 }
 
 
