@@ -1,0 +1,301 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: max-content;
+    overflow: hidden;
+    margin: 6vmax 9vmax;
+    padding: 0vmax;
+    height: 50vmax;
+}
+
+
+.about-background{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/about-section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+    gap: 3vmax;
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vmax;
+    padding-top: 0.5vmax;
+}
+
+.about-heading p{
+    font-size: 1vmax;
+}
+
+.about-heading h1{
+    font-size: 2.5vmax;
+}
+
+.about-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid;
+    border-radius: 0.5vmax;
+    border-width: 0.12vmax;
+    border-color: rgba(28, 28, 33, 1);
+    background-color: rgba(14, 14, 16, 1);
+    padding: 1vmax 2vmax;
+}
+
+.details h1{
+    font-size: 1.7vmax;
+    font-weight: 500;
+}
+
+.details p{
+    font-size: 0.9vmax;
+    font-weight: 300;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0; /* Positions at the bottom of the container */
+    width: 100%;
+    height: 6vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 65vmax;
+    padding: 0vmax 2vmax;
+    margin-bottom: 2.5vmax;
+}
+
+.bottom-left{
+    width: 5vmax;
+    height: 5vmax;
+}
+
+.bottom-left img{
+    width: 5vmax;
+    height: 5vmax;
+}
+
+.bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vmax;
+}
+
+.bottom-right p{
+    font-size: 0.9vmax;
+}
+
+
+.biography{
+    margin: 6vmax 9vmax;
+}
+
+.biography h1{
+    font-size: 1.7vmax;
+    font-weight: 700;
+    color: rgba(121, 124, 134, 1);
+    margin-bottom: 0.6vmax;
+}
+
+.biography p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+    line-height: 1.5vmax;
+    color: rgba(121, 124, 134, 1);
+}
+
+.journey{
+    display: flex;
+    flex-direction: column;
+    margin: 10vmax 9vmax;
+    gap: 3vmax;
+}
+
+.journey-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.journey-heading p{
+    font-size: 1vmax;
+    font-weight: 600;
+    margin: 0;
+    color: rgba(121, 124, 134, 1);
+}
+
+.journey-heading h1{
+    font-size: 2.5vmax;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.journey-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vmax;
+}
+
+.journey-cards .card-2005 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2005 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2005 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+
+.journey-cards .card-2010 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2010 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2010 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.journey-cards .card-2012 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2012 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2012 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.journey-cards .card-2015 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2015 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2015 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.journey-cards .card-2017 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2017 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2017 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.journey-cards .card-2020 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vmax;
+    height: auto;
+    padding: 2vmax;
+    border-radius: 0.7vmax;
+    background-color: rgba(14, 14, 16, 1);
+    color: rgba(121, 124, 134, 1);
+    gap: 0.7vmax;
+}
+
+
+.card-2020 h1{
+    font-size: 1.7vmax;
+    font-weight: 600;
+}
+
+.card-2020 p{
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
