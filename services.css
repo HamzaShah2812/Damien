@@ -120,7 +120,7 @@
 
 .services-image img{
     display: flex;
-    width: 45vmax;
+    width: 47vmax;
     height: 22vmax;
 }
 
@@ -145,9 +145,17 @@
     padding-left: 0.5vmax;
 }
 
+
 .navigation-buttons{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: -2vmax;
+    gap: 1vmax;
+    margin-top: -2.5vmax;
+}
+
+.navigation-buttons a img{
+    width: 3.2vmax;
+    height: 3.2vmax;
 }
