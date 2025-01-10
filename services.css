@@ -1,4 +1,4 @@
-.portfolio{
+.services{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -10,10 +10,10 @@
 }
 
 
-.portfolio-background{
+.services-background{
     display: flex;
     flex-direction: column;
-    background-image: url(img/portfolio.png);
+    background-image: url(img/Service-page.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,38 +26,38 @@
     gap: 3vmax;
 }
 
-.portfolio-page-heading{
+.services-page-heading{
     display: flex;
     flex-direction: column;
-    gap: 0.2vmax;
     padding-top: 0.5vmax;
+    padding-left: 14vmax;
 }
 
-.portfolio-page-heading p{
+.services-page-heading p{
     font-size: 1vmax;
     font-weight: 400;
 }
 
-.portfolio-page-heading h1{
+.services-page-heading h1{
     font-size: 2.5vmax;
     font-weight: 500;
 }
 
-.portfolio-page-text{
+.services-page-text{
     display: flex;
-    width: 55vmax;
+    width: auto;
     height: auto;
-    padding: 2.5vmax 0vmax;
+    padding: 1.2vmax 0vmax;
 }
 
-.portfolio-page-text p{
+.services-page-text p{
     font-size: 1vmax;
     font-weight: 400;
 }
 
 .bottom{
     position: absolute;
-    bottom: 0; /* Positions at the bottom of the container */
+    bottom: 0;
     width: 100%;
     height: 5vmax;
     display: flex;
@@ -90,311 +90,64 @@
     color: rgba(121, 124, 134, 1);
 }
 
-
-.brands{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1vmax;
-    margin: 1vmax 0vmax 8vmax 0vmax;
-}
-
-.brands-heading p{
-    font-size: 0.8vmax;
-    font-weight: 400;
-    color: rgba(121, 124, 134, 1);
-}
-
-
-.list-brands{
+.services-portrait{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5vmax;
-    background-color: rgba(14, 14, 16, 1);
-    padding: 1.5vmax 0vmax;
-    width: 100%;
-    
-}
-
-.list-brands img{
     width: auto;
-    height: 2.5vmax;
+    height: 22vmax;
+    margin: 6vmax 9vmax;
+    gap: 2vmax;
 }
 
-
-
-.portfolio-portraits{
+.services-portrait-text{
     display: flex;
     flex-direction: column;
-    padding: 12vmax 9vmax;
-    padding-top: 0vmax;
-}
-
-.portfolio-portraits .section-head {
-    font-size: 1vmax;
-    font-weight: 600;
-    margin: 0;
-    color: rgba(121, 124, 134, 1);
-}
-
-.portraits-heading{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 5vmax;
-}
-
-.portraits-heading h1{
-    font-size: 2vmax;
-    font-weight: 600;
-    color: rgba(121, 124, 134, 1);
-}
-
-.navigation-buttons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1vmax;
-}
-
-.navigation-buttons button{
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-
-.navigation-buttons button img{
-    width: 2.5vmax;
-    height: 2.5vmax;
-}
-
-.portraits-buttons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 2vmax;
 }
 
-.all-portfolio a{
+.services-portrait-image{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.services-image{
+    display: flex;
+    width: auto;
+    height: 30vmax;
+}
+
+.services-image img{
+    display: flex;
+    width: 45vmax;
+    height: 22vmax;
+}
+
+.services-portrait-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.services-portrait-button a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+.services-portrait-button a img{
+    width: 0.8vmax;
+    height: 0.8vmax;
+    padding-left: 0.5vmax;
+}
+
+.navigation-buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.5vmax;
-    width: 12vmax;
-    height: 3vmax;
-    font-size: 1vmax;
-    background-color: rgba(28, 28, 33, 1);
+    margin: -2vmax;
 }
-
-.all-portfolio a{
-    color: white;
-    text-decoration: none;
-}
-
-.portrait-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 3vmax;
-}
-
-.portrait-face{
-    display: flex;
-    flex-direction: column;
-    gap: 1vmax;
-}
-
-.portrait-face-image{
-    display: flex;
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-face-image img{
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-face-details{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.portrait-face-name{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1vmax;
-}
-
-.portrait-face-name h4{
-    font-size: 1vmax;
-    font-weight: 500;
-    color:rgba(202, 202, 206, 1);
-}
-
-.portrait-face-name p{
-    font-size: 0.9vmax;
-    font-weight: 400;
-    color: rgba(121, 124, 134, 1);
-}
-
-.portrait-face-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.portrait-face-button a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 0.9vmax;
-    font-weight: 400;
-}
-
-.portrait-face-button a img{
-    width: 0.8vmax;
-    height: 0.8vmax;
-    padding-left: 0.5vmax;
-}
-
-.portrait-innocence{
-    display: flex;
-    flex-direction: column;
-    gap: 1vmax;
-}
-
-.portrait-innocence-image{
-    display: flex;
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-innocence-image img{
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-innocence-details{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.portrait-innocence-name{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1vmax;
-}
-
-.portrait-innocence-name h4{
-    font-size: 1vmax;
-    font-weight: 500;
-    color:rgba(202, 202, 206, 1);
-}
-
-.portrait-innocence-name p{
-    font-size: 0.9vmax;
-    font-weight: 400;
-    color: rgba(121, 124, 134, 1);
-}
-
-.portrait-innocence-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.portrait-innocence-button a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 0.9vmax;
-    font-weight: 400;
-}
-
-.portrait-innocence-button a img{
-    width: 0.8vmax;
-    height: 0.8vmax;
-    padding-left: 0.5vmax;
-}
-
-.portrait-elegance{
-    display: flex;
-    flex-direction: column;
-    gap: 1vmax;
-}
-
-.portrait-elegance-image{
-    display: flex;
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-elegance-image img{
-    width: 25vmax;
-    height: 26vmax;
-}
-
-.portrait-elegance-details{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.portrait-elegance-name{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1vmax;
-}
-
-.portrait-elegance-name h4{
-    font-size: 1vmax;
-    font-weight: 500;
-    color:rgba(202, 202, 206, 1);
-}
-
-.portrait-elegance-name p{
-    font-size: 0.9vmax;
-    font-weight: 400;
-    color: rgba(121, 124, 134, 1);
-}
-
-.portrait-elegance-button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.portrait-elegance-button a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 0.9vmax;
-    font-weight: 400;
-}
-
-.portrait-elegance-button a img{
-    width: 0.8vmax;
-    height: 0.8vmax;
-    padding-left: 0.5vmax;
-}
-
-
-
