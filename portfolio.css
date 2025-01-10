@@ -114,7 +114,7 @@
     justify-content: center;
     gap: 5vmax;
     background-color: rgba(14, 14, 16, 1);
-    padding: 1.5vmax 7vmax;
+    padding: 1.5vmax 0vmax;
     width: 100%;
     
 }
@@ -126,21 +126,21 @@
 
 
 
-.portfolio-section{
+.portfolio-portraits{
     display: flex;
     flex-direction: column;
     padding: 12vmax 9vmax;
     padding-top: 0vmax;
 }
 
-.portfolio-section .section-head {
+.portfolio-portraits .section-head {
     font-size: 1vmax;
     font-weight: 600;
     margin: 0;
     color: rgba(121, 124, 134, 1);
 }
 
-.portfolio-heading{
+.portraits-heading{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -148,10 +148,10 @@
     margin-bottom: 5vmax;
 }
 
-.portfolio-heading h1{
-    font-size: 3vmax;
+.portraits-heading h1{
+    font-size: 2vmax;
     font-weight: 600;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(121, 124, 134, 1);
 }
 
 .navigation-buttons{
@@ -176,7 +176,7 @@
     height: 2.5vmax;
 }
 
-.portfolio-buttons{
+.portraits-buttons{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,62 +200,62 @@
     text-decoration: none;
 }
 
-.portfolio-content{
+.portrait-content{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 3vmax;
 }
 
-.face{
+.portrait-face{
     display: flex;
     flex-direction: column;
     gap: 1vmax;
 }
 
-.face-image{
+.portrait-face-image{
     display: flex;
     width: 25vmax;
     height: 26vmax;
 }
 
-.face-image img{
+.portrait-face-image img{
     width: 25vmax;
     height: 26vmax;
 }
 
-.face-details{
+.portrait-face-details{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.face-name{
+.portrait-face-name{
     display: flex;
     flex-direction: column;
     gap: 0.1vmax;
 }
 
-.face-name h4{
+.portrait-face-name h4{
     font-size: 1vmax;
     font-weight: 500;
     color:rgba(202, 202, 206, 1);
 }
 
-.face-name p{
+.portrait-face-name p{
     font-size: 0.9vmax;
     font-weight: 400;
     color: rgba(121, 124, 134, 1);
 }
 
-.face-button{
+.portrait-face-button{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.face-button a{
+.portrait-face-button a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -264,61 +264,61 @@
     font-weight: 400;
 }
 
-.face-button a img{
+.portrait-face-button a img{
     width: 0.8vmax;
     height: 0.8vmax;
     padding-left: 0.5vmax;
 }
 
-.wedding{
+.portrait-innocence{
     display: flex;
     flex-direction: column;
     gap: 1vmax;
 }
 
-.wedding-image{
+.portrait-innocence-image{
     display: flex;
     width: 25vmax;
     height: 26vmax;
 }
 
-.wedding-image img{
+.portrait-innocence-image img{
     width: 25vmax;
     height: 26vmax;
 }
 
-.wedding-details{
+.portrait-innocence-details{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.wedding-name{
+.portrait-innocence-name{
     display: flex;
     flex-direction: column;
     gap: 0.1vmax;
 }
 
-.wedding-name h4{
+.portrait-innocence-name h4{
     font-size: 1vmax;
     font-weight: 500;
     color:rgba(202, 202, 206, 1);
 }
 
-.wedding-name p{
+.portrait-innocence-name p{
     font-size: 0.9vmax;
     font-weight: 400;
     color: rgba(121, 124, 134, 1);
 }
 
-.wedding-button{
+.portrait-innocence-button{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.wedding-button a{
+.portrait-innocence-button a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -327,61 +327,61 @@
     font-weight: 400;
 }
 
-.wedding-button a img{
+.portrait-innocence-button a img{
     width: 0.8vmax;
     height: 0.8vmax;
     padding-left: 0.5vmax;
 }
 
-.product{
+.portrait-elegance{
     display: flex;
     flex-direction: column;
     gap: 1vmax;
 }
 
-.product-image{
+.portrait-elegance-image{
     display: flex;
     width: 25vmax;
     height: 26vmax;
 }
 
-.product-image img{
+.portrait-elegance-image img{
     width: 25vmax;
     height: 26vmax;
 }
 
-.product-details{
+.portrait-elegance-details{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.product-name{
+.portrait-elegance-name{
     display: flex;
     flex-direction: column;
     gap: 0.1vmax;
 }
 
-.product-name h4{
+.portrait-elegance-name h4{
     font-size: 1vmax;
     font-weight: 500;
     color:rgba(202, 202, 206, 1);
 }
 
-.product-name p{
+.portrait-elegance-name p{
     font-size: 0.9vmax;
     font-weight: 400;
     color: rgba(121, 124, 134, 1);
 }
 
-.product-button{
+.portrait-elegance-button{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.product-button a{
+.portrait-elegance-button a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -390,7 +390,7 @@
     font-weight: 400;
 }
 
-.product-button a img{
+.portrait-elegance-button a img{
     width: 0.8vmax;
     height: 0.8vmax;
     padding-left: 0.5vmax;
