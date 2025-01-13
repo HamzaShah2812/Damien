@@ -1,4 +1,4 @@
-.services{
+.services-page{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -188,7 +188,7 @@
 
 .price h2{
     font-size: 2.5vmax;
-    font-weight: 500;
+    font-weight: 300;
     width: 9vmax;
 }
 
@@ -241,3 +241,153 @@
     padding: 12vmax 9vmax;
     padding-top: 6vmax;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax 9vmax;
+    gap: 1vmax;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 8vmax;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.home h5{
+    color: rgba(121, 124, 134, 1);
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.home a{
+    text-decoration: none;
+    color: rgba(242, 242, 243, 1);
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.clients h5{
+    color: rgba(121, 124, 134, 1);
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.clients a{
+    text-decoration: none;
+    color: rgba(242, 242, 243, 1);
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.portfolio h5{
+    color: rgba(121, 124, 134, 1);
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: rgba(242, 242, 243, 1);
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.services h5{
+    color: rgba(121, 124, 134, 1);
+    font-size: 0.9vmax;
+    font-weight: 600;
+}
+
+.services a{
+    text-decoration: none;
+    color: rgba(242, 242, 243, 1);
+    font-size: 0.9vmax;
+    font-weight: 500;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vmax 9vmax; 
+}
+
+.term{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    order: 1;
+}
+
+.term a{
+    text-decoration: none;
+    color: rgba(121, 124, 134, 1);
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    order: 2;
+}
+
+.social-media img{
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.copy{
+    order: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
