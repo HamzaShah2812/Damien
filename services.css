@@ -103,7 +103,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2vmax;
+    gap: 3vmax;
 }
 
 .services-portrait-image{
@@ -151,11 +151,93 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1vmax;
+    gap: 0.6vmax;
     margin-top: -2.5vmax;
 }
 
 .navigation-buttons a img{
     width: 3.2vmax;
     height: 3.2vmax;
+}
+
+
+.sessions{
+    display: flex;
+    flex-direction: row;
+    padding: 6vmax 9vmax;
+    gap: 8vmax;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vmax;
+}
+
+.pricing p{
+    font-size: 1vmax;
+    color: white;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vmax;
+}
+
+.price h2{
+    font-size: 2.5vmax;
+    font-weight: 500;
+    width: 9vmax;
+}
+
+.price a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1vmax;
+    font-weight: 400;
+    gap: 0.2vmax;
+}
+
+.price a img{
+    width: 0.8vmax;
+    height: 0.8vmax;
+}
+
+.sessions-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vmax;
+}
+
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+}
+
+.feature img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.feature p{
+    font-size: 1vmax;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.FAQ-section{
+    display: flex;
+    flex-direction: column;
+    padding: 12vmax 9vmax;
+    padding-top: 6vmax;
 }
